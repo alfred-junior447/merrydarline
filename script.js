@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initMenuMobile();
     initScrollEffects();
     initProductFilters();
+    initGiftFilters();
     initLightbox();
     initGoogleMaps();
     initFormValidation();
@@ -191,6 +192,48 @@ function initProductFilters() {
             }
         });
     }
+}
+
+/**
+ * ============================================
+ * 4 bis. FILTRES DES CADEAUX PAR TRANCHE D'ÂGE
+ * ============================================
+ */
+function initGiftFilters() {
+    const filterBtns = document.querySelectorAll('.gift-filter-btn');
+    const giftGroups = document.querySelectorAll('.gift-group');
+    const giftsGrid = document.getElementById('giftsGrid');
+
+    if (!filterBtns.length || !giftGroups.length) return;
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Mise à jour de la classe active
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+
+            const age = this.getAttribute('data-age');
+
+            // Animation de filtrage (identique aux produits)
+            if (giftsGrid) {
+                giftsGrid.style.opacity = '0.5';
+            }
+
+            setTimeout(() => {
+                giftGroups.forEach(group => {
+                    const groupAge = group.getAttribute('data-age');
+                    if (age === 'all' || groupAge === age) {
+                        group.style.display = 'block';
+                    } else {
+                        group.style.display = 'none';
+                    }
+                });
+                if (giftsGrid) {
+                    giftsGrid.style.opacity = '1';
+                }
+            }, 200);
+        });
+    });
 }
 
 /**
@@ -681,6 +724,7 @@ if (typeof module !== 'undefined' && module.exports) {
         initMenuMobile,
         initScrollEffects,
         initProductFilters,
+    initGiftFilters,
         initLightbox,
         initGoogleMaps,
         initFormValidation,

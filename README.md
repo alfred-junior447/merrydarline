@@ -131,3 +131,31 @@ Le formulaire de contact est configuré pour Netlify Forms. Après le déploieme
 - Font Awesome
 - Google Maps API
 - Netlify Forms
+
+---
+
+## 🎁 Section « Cadeaux par tranche d'âge » (ajoutée le 12 octobre 2026)
+
+25 produits classés en 5 tranches d'âge : **0-3 ans, 4-7 ans, 8-12 ans, 13-17 ans, 18 ans et +**,
+avec onglets de filtrage par âge (même mécanique que les filtres produits).
+
+### Analyse des prix (marché français, octobre 2026)
+- **PlayStation 5 (disque)** : 649,99 € — prix conseillé Sony depuis avril 2026
+- **PS5 Digital Edition** : 599,99 € — prix conseillé
+- **Nintendo Switch 2** : 449,99 € affiché (prix conseillé 499,99 €, prix rue ~419 €)
+- Autres produits : prix alignés sur les gammes constatées en boutique (jouets 20-50 €,
+  jeux/loisirs 30-80 €, tech 80-160 €)
+
+### Crédits photos (licences libres — Wikimedia Commons)
+Voir chaque page de fichier pour l'auteur et la licence exacte :
+- PlayStation 5 & DualSense : https://commons.wikimedia.org/wiki/File:PlayStation_5_and_DualSense.jpg
+- Nintendo Switch 2 : https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2-Konsole_IL_20250606.png
+- PlayStation 5 (vue console) : https://commons.wikimedia.org/wiki/File:Playstation_5.jpg
+- Casque audio : https://commons.wikimedia.org/wiki/File:Headphones_1.jpg
+- Drone : https://commons.wikimedia.org/wiki/File:Quadcopter_Drone.png
+- Skateboard : https://commons.wikimedia.org/wiki/File:Horizontal_Skateboard.jpg
+- Échiquier : https://commons.wikimedia.org/wiki/File:ChessSet.jpg
+- Enceinte Bluetooth : https://commons.wikimedia.org/wiki/File:Bluetooth_Speaker.jpg
+
+> ⚠️ Les cartes affichant « Photo à venir » utilisent un emplacement illustré temporaire.
+> Remplacez-les par des photos de vos propres produits avant la mise en production.
